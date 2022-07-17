@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alix's Challenge</title>
+    <style>
+        body {
+            background-color: rgb(214, 152, 235);
+        }
+        /* #text id tag assigns global values to all the text within the span, setting its position relative to the whole page along with font sizes, weights, line spacing and font type.*/
+        #text {
+            position: absolute;
+            margin: 8% auto auto 22%; /*Margin given in one expression as top, right, bottom, left. using auto allows me to assign values to top and left and let the computer work out what the others should be*/
+            
+            font-family: sans-serif;
+            font-size: 120px;
+            line-height: 5px;
+            font-weight: 100;
+        }
+        /*the #design id tag is used solely to set a text-indent value to get the alignment correct relative to the other words within the span*/
+        #design {
+            text-indent: 250px;
+        }
+        /*the #ill id tag is used to override elements of the #text id tag so as to give the word its own font style and family*/
+        #ill {
+            font-family: serif;
+            font-style: italic;
+        }
+        /*Image positioning below based on their id tags. Fairly straightforward pixel margins from 0,0*/
+        #elephant {
+            position: absolute;
+            margin: 60px auto auto 565px;
+            width: 250px;
+        }
+        #marble {
+            position: absolute;
+            width: 220px;
+            height: 120px;
+            margin: 300px auto auto 330px;         
+        }
+        #abstract {
+            position: absolute;
+            width: 80px;
+            margin: 214px auto auto 858px;
+        }
+        #arrow {
+            position: absolute;
+            width: 100px;
+            margin: 460px auto auto 870px;
+        }
+
+    </style>
+</head>
+<body>
+        <img src="shweta-gupta-MI-lWVqzDKE-unsplash.jpg" id="elephant">
+        <img src="visax-4bPHrlBwOCw-unsplash.jpg" id="marble">
+        <img src="shweta-gupta-FIXqfL9_48o-unsplash.jpg" id="abstract">
+        <img src="clipart533168.png" id="arrow">
+
+    <span id="text">
+        <p id="web">Web</p>
+        <p id="design">Design</p>
+        <p id="ill">Illustration</p>
+    </span>
+
+</body>
+</html>
