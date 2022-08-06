@@ -1,0 +1,57 @@
+* {
+    font-family: Helvetica;
+    background-color: antiquewhite;
+  }
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+div, p {
+    background-color: white;
+}
+
+#heading {
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    background-image: url(../images/pattern.jpeg);
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+#brushes-heading {
+    background: mediumspringgreen;
+}
+
+#frames-heading {
+    background: lightcoral;
+}
+
+#paint-heading {
+    background: skyblue;
+}
+
+.prices {
+    font-weight: bold;
+    color: blue;
+    background-color: white;
+}
+
+.little-heading {
+    font-weight: bold;
+    background-color: white;
+}
+
+footer {
+    text-transform: uppercase;
+    opacity: 0.2;
+    text-align: center;
+    font-size: 12px;
+}
